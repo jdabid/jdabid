@@ -1,5 +1,9 @@
 # Hey, I'm David Castro 👋
 
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=6366F1&center=true&vCenter=true&width=435&lines=DevOps+Engineer;Backend+Python+Developer;Cloud+Enthusiast" alt="Typing SVG" />
+</p>
+
 **DevOps Engineer | Backend Python Developer**
 
 Software engineer from Colombia 🇨🇴 passionate about cloud infrastructure, containerization, and building scalable backend systems. Currently seeking remote opportunities as a **DevOps Engineer** or **Backend Python Developer**.
