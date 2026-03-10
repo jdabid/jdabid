@@ -13,18 +13,6 @@ Currently seeking **remote opportunities worldwide** as a **Backend Developer**,
 
 ## Featured Projects
 
-### [DevPortfolio AI](https://github.com/jdabid/portfolio-CV)
-
-Full-stack portfolio with an AI-powered job suggestions engine that scrapes 9 job boards, analyzes vacancies with LLMs, and learns from user preferences.
-
-**Stack:** FastAPI, React, TypeScript, Celery, RabbitMQ, LangChain, PostgreSQL, Redis, Docker, Kubernetes, Helm, ArgoCD
-
-- Vertical Slice Architecture + CQRS pattern
-- AI pipeline: scraping → pre-validation → LLM analysis → scoring → preference learning
-- 9 job board API integrations with smart filtering
-- 296 tests | 94% coverage
-- Full K8s deployment with Helm charts and ArgoCD GitOps
-
 ### [Flight Reservation System](https://github.com/jdabid/flight-reservation-system)
 
 Event-driven flight reservation system with AI agent using RAG for intelligent search and booking assistance.
