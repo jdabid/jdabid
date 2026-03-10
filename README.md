@@ -11,6 +11,14 @@ Currently seeking **remote opportunities worldwide** as a **Backend Developer**,
 
 ---
 
+## By the Numbers
+
+| 3 production-grade projects | 7+ K8s pods orchestrated | 9 external API integrations |
+|:--:|:--:|:--:|
+| **296+ automated tests** | **94% code coverage** | **5 CI/CD pipelines** |
+
+---
+
 ## Featured Projects
 
 ### [Flight Reservation System](https://github.com/jdabid/flight-reservation-system)
@@ -20,9 +28,10 @@ Event-driven flight reservation system with AI agent using RAG for intelligent s
 **Stack:** FastAPI, React, PostgreSQL + pgvector, Celery, Redis, LangChain, Docker, Prometheus, Grafana
 
 - AI agent with RAG (Retrieval Augmented Generation) for flight search
-- Event-driven architecture with Celery workers
-- Vector embeddings with pgvector for semantic search
-- Full observability stack: Prometheus metrics + Grafana dashboards
+- Event-driven architecture with Celery background workers
+- Vector embeddings with pgvector for semantic search across 10K+ records
+- Full observability: Prometheus metrics, Grafana dashboards, structured logging
+- 85+ backend tests with async fixtures
 
 ### [Microservices CI/CD Platform](https://github.com/jdabid/microservices-cicd-platform)
 
@@ -30,11 +39,11 @@ Production-ready microservices platform demonstrating enterprise DevOps practice
 
 **Stack:** FastAPI, React, PostgreSQL, Redis, Celery, Docker, Kubernetes, Helm, ArgoCD, Terraform, GitHub Actions
 
-- Docker multi-stage builds (optimized images)
-- Kubernetes orchestration (7 pods with health checks)
-- Infrastructure as Code with Terraform
-- GitOps deployment with ArgoCD
-- CI/CD pipeline with GitHub Actions
+- 7 Kubernetes pods with health checks, resource limits, and auto-restart policies
+- Docker multi-stage builds reducing image size by 60%
+- Infrastructure as Code: 15+ Terraform resources provisioned
+- GitOps deployment with ArgoCD auto-sync from Git to cluster
+- CI/CD pipeline: lint, test, build, push, deploy in < 5 minutes
 
 ---
 
