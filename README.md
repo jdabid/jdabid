@@ -1,75 +1,48 @@
-## Hey, I'm David Castro
+## Hey, I'm David Castro 👋
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=6366F1&center=true&vCenter=true&width=520&lines=Python+Backend+Developer;DevOps+Engineer;Full+Stack+(React+%2B+FastAPI);AI+Pipeline+Engineer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F0FF&center=true&vCenter=true&width=580&lines=QA+Automation+Engineer+%26+SDET+(pytest+%2B+k6);Render+TD+%26+Pipeline+Developer;Linux+Systems+%26+Media+Automation;Systems+Engineering+Student+(8th+Semester)" alt="Typing SVG" />
 </p>
 
-**Python Backend Developer | DevOps Engineer | Full Stack (React + FastAPI) | AI Pipelines**
+**QA Automation Engineer (SDET) | Render TD & Pipeline Developer**
 
-Software engineer from Colombia building production-grade systems with Python, Kubernetes, and AI.  
-Currently seeking **remote opportunities worldwide** as a **Backend Developer**, **DevOps Engineer**, or **Full Stack Developer**.
-
----
-
-## By the Numbers
-
-| 3 production-grade projects | 7+ K8s pods orchestrated | 9 external API integrations |
-|:--:|:--:|:--:|
-| **296+ automated tests** | **94% code coverage** | **5 CI/CD pipelines** |
+Systems Engineering student (8th semester) from Colombia specializing in **test automation frameworks (pytest, k6 load testing, API integration), Linux process management, and media ingestion pipelines**.  
+Currently seeking **QA Automation / SDET**, **Junior Render Wrangler / Render TD**, or **Pipeline Developer** roles (Remote Worldwide / Relocation).
 
 ---
 
-## Featured Projects
+## Technical Competencies
 
-### [Flight Reservation System](https://github.com/jdabid/flight-reservation-system)
-
-Event-driven flight reservation system with AI agent using RAG for intelligent search and booking assistance.
-
-**Stack:** FastAPI, React, PostgreSQL + pgvector, Celery, Redis, LangChain, Docker, Prometheus, Grafana
-
-- AI agent with RAG (Retrieval Augmented Generation) for flight search
-- Event-driven architecture with Celery background workers
-- Vector embeddings with pgvector for semantic search across 10K+ records
-- Full observability: Prometheus metrics, Grafana dashboards, structured logging
-- 85+ backend tests with async fixtures
-
-### [Microservices CI/CD Platform](https://github.com/jdabid/microservices-cicd-platform)
-
-Production-ready microservices platform demonstrating enterprise DevOps practices.
-
-**Stack:** FastAPI, React, PostgreSQL, Redis, Celery, Docker, Kubernetes, Helm, ArgoCD, Terraform, GitHub Actions
-
-- 7 Kubernetes pods with health checks, resource limits, and auto-restart policies
-- Docker multi-stage builds reducing image size by 60%
-- Infrastructure as Code: 15+ Terraform resources provisioned
-- GitOps deployment with ArgoCD auto-sync from Git to cluster
-- CI/CD pipeline: lint, test, build, push, deploy in < 5 minutes
+| Category | Technologies & Tools |
+|---|---|
+| **QA & Test Automation** | **pytest** (async fixtures, mocking, parametrization), **k6** (load & performance testing), API Integration Testing (HTTPX, FastAPI TestClient), Data-driven Testing, Test Coverage (`pytest-cov`), Contract Testing |
+| **Core Languages** | Python 3 (Advanced: `subprocess`, `multiprocessing`, `os`, `signals`, `asyncio`), JavaScript/ES6 (k6 testing scripts), Bash / Shell, SQL |
+| **Operating Systems & Linux** | Linux (Ubuntu, Rocky Linux, RHEL), Process Monitoring (`top`, `psutil`), POSIX Signals (`SIGTERM`/`SIGKILL`), Resource Contention & OOM Debugging |
+| **Media & Pipeline** | FFmpeg CLI & Python bindings, Batch Media Transcoding, Audio Normalization (EBU R128), OpenCue concepts, DAG Workflow Scheduling |
+| **Engineering Practices** | Clean Architecture, Modular Packaging (`pyproject.toml`), GitHub Actions CI/CD (Automated Test Runners), Docker |
 
 ---
 
-## Tech Stack
+## Featured Engineering Projects
 
-| Category | Technologies |
-|----------|-------------|
-| **Backend** | Python, FastAPI, SQLAlchemy (async), Pydantic v2, Celery, LangChain |
-| **Frontend** | React 18, TypeScript, Vite, TailwindCSS, React Query |
-| **Databases** | PostgreSQL, Redis, RabbitMQ |
-| **Containers** | Docker, Docker Compose, multi-stage builds |
-| **Orchestration** | Kubernetes, Helm, Kustomize, ArgoCD |
-| **IaC & CI/CD** | Terraform, GitHub Actions, Azure Pipelines |
-| **Monitoring** | Prometheus, Grafana |
-| **AI/ML** | LangChain, Claude API, Groq, pgvector (RAG) |
-| **Architecture** | Vertical Slice, CQRS, Event-Driven, Microservices |
-| **Testing** | pytest, Vitest, React Testing Library (296+ tests) |
+### 🧪 [api-performance-qa-harness](https://github.com/jdabid/api-performance-qa-harness)
+*End-to-end automated testing, API validation, and high-concurrency load testing framework built with pytest and k6.*
+* **Complete Test Coverage:** Implements integration and unit test suites with pytest using asynchronous database fixtures and mock services.
+* **Performance & Stress Testing:** 5 modular k6 load testing scenarios simulating real-world concurrent traffic spikes (authentication flows, CRUD operations, health probes, and edge-case saturation).
+* **CI/CD Quality Gate:** Automated test execution and coverage enforcement in GitHub Actions with zero-failure exit codes.
+* **Stack:** Python 3, pytest, k6, FastAPI TestClient, HTTPX, Docker Compose, GitHub Actions.
 
----
+### 🛡️ [process-sentinel-watchdog](https://github.com/jdabid/process-sentinel-watchdog)
+*A lightweight daemonized process watchdog and forensic reporter for long-running compute and render tasks in Python.*
+* Implements two-stage graceful termination (`SIGTERM` -> grace period -> `SIGKILL`) preventing pipeline deadlocks and orphaned processes.
+* Captures real-time CPU/memory metrics and outputs structured JSON diagnostic reports for failed jobs.
+* **Stack:** Python 3, POSIX signals, `psutil`, Clean Architecture, pytest.
 
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jdabid&show_icons=true&theme=tokyonight&hide_border=true" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jdabid&layout=compact&theme=tokyonight&hide_border=true" height="165">
-</p>
+### 🎬 [media-transcoder-pipeline](https://github.com/jdabid/media-transcoder-pipeline)
+*High-throughput, asynchronous media ingestion and transcoding pipeline powered by Python and FFmpeg.*
+* Automated batch ingestion, stream validation, and broadcast loudness normalization (EBU R128).
+* Multi-worker execution scaling across CPU cores without saturating system I/O.
+* **Stack:** Python 3, FFmpeg, Subprocess concurrency, Multiprocessing.
 
 ---
 
@@ -80,9 +53,5 @@ Production-ready microservices platform demonstrating enterprise DevOps practice
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jdabid)
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=jdabid&color=6366F1&style=flat-square" alt="Profile views">
-</p>
-
-<p align="center">
-  <i>Open to remote opportunities worldwide</i>
+  <i>Open to remote opportunities worldwide & international relocation</i>
 </p>
